@@ -1,3 +1,11 @@
+// Type definition
+type GeneratorOptios = {
+    charsQty: number,
+    isUppercase: boolean,
+    haveNumbers: boolean,
+    haveSymbols: boolean
+};
+
 /**
  * Prepare an array o numbers based on ASCII table
  * @param low minimum value
@@ -23,20 +31,20 @@ const symbolsCharactersCode = lowToHigh(33, 47)
 /**
  * Get named params (object) and loop through it and apply conditionals
  * @param charsQty      string length
- * @param isUpperCase   boolean param should include uppercase?
+ * @param isUppercase   boolean param should include uppercase?
  * @param haveNumbers   boolean param should include numbers?
  * @param haveSymbols   boolean param should include special chars?
  * @returns string with password ready characteristics
  */
 const generator = ({
     charsQty = 10,
-    isUpperCase = false,
+    isUppercase = false,
     haveNumbers = false,
     haveSymbols = false
-}): string => {
+}: GeneratorOptios): string => {
     let charactersCode: number[] = lowercaseCharactersCode;
 
-    if (isUpperCase) charactersCode = charactersCode.concat(uppercaseCharactersCode);
+    if (isUppercase) charactersCode = charactersCode.concat(uppercaseCharactersCode);
     if (haveNumbers) charactersCode = charactersCode.concat(numberCharactersCode);
     if (haveSymbols) charactersCode = charactersCode.concat(symbolsCharactersCode);
 
@@ -48,11 +56,11 @@ const generator = ({
     return password.join('');
 };
 
-const generate = generator({
+const execute = generator({
     charsQty: 10,
-    isUpperCase: true,
+    isUppercase: true,
     haveNumbers: true,
     haveSymbols: true
 });
 
-console.log(generate);
+console.log(execute);

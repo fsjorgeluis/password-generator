@@ -9,7 +9,7 @@
   },
   "scripts": {
     "build": "tsc",
-    "start": "node src/generator.js",
+    "start": "node dist/generator.js",
     "test": "jest"
   },
   "keywords": [],
@@ -20,6 +20,20 @@
   "license": "UNLICENSED",
   "devDependencies": {
     "@types/jest": "^26.0.24",
-    "jest": "^27.0.6"
+    "jest": "^27.0.6",
+    "ts-jest": "^27.0.3",
+    "typescript": "^4.3.5"
+  },
+  "jest": {
+    "moduleFileExtensions": [
+      "js",
+      "json",
+      "ts"
+    ],
+    "rootDir": "./test",
+    "testRegex": ".*\\.spec\\.ts$",
+    "transform": {
+      "^.+\\.(t|j)s$": "ts-jest"
+    }
   }
 }
