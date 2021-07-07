@@ -1,6 +1,6 @@
 import { jest } from "@jest/globals";
 // import { lowToHigh } from '../src/generator';
-import { generator } from '../src/generator';
+import { generator } from '../src/';
 
 beforeEach(() => {
     jest.spyOn(global.Math, 'floor').mockReturnValue(23);

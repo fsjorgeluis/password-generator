@@ -55,12 +55,3 @@ export const generator = ({
     }
     return password.join('');
 };
-
-const execute = generator({
-    charsQty: 10,
-    isUppercase: true,
-    haveNumbers: true,
-    haveSymbols: true
-});
-
-console.log(execute);

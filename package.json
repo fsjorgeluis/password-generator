@@ -3,21 +3,22 @@
   "version": "1.0.0",
   "private": true,
   "description": "Just a little password generator builded with typescript",
-  "main": "src/generator.js",
+  "main": "src/index.ts",
   "directories": {
     "test": "test"
   },
   "scripts": {
     "build": "tsc",
-    "start": "node dist/generator.js",
+    "start": "node dist/index.js",
     "test": "jest"
   },
   "keywords": [],
   "author": {
     "name": "Jorge Fernandez",
-    "email": "fsjorgeluis@gmail.com"
+    "email": "fsjorgeluis@gmail.com",
+    "url": "https://fsjorgeluis.github.io/portfolio"
   },
-  "license": "UNLICENSED",
+  "license": "ISC",
   "devDependencies": {
     "@types/jest": "^26.0.24",
     "jest": "^27.0.6",
