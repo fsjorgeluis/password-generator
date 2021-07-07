@@ -36,7 +36,7 @@ const symbolsCharactersCode = lowToHigh(33, 47)
  * @param haveSymbols   boolean param should include special chars?
  * @returns string with password ready characteristics
  */
-const generator = ({
+export const generator = ({
     charsQty = 10,
     isUppercase = false,
     haveNumbers = false,
