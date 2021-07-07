@@ -1,6 +1,6 @@
 # Password Generator Module
 
-A little module to generate password, use fromCharCode() function to convert a random ASCII code to a readable character.  
+A little module to generate password, use ``fromCharCode()`` static method to convert a random "ASCII - Unicode" code to a readable character.  
 ```
 String.fromCharCode()
 ```
