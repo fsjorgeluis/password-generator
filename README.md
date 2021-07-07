@@ -7,9 +7,14 @@ String.fromCharCode()
 Feel free to use it, if you like it! :D
 
 ## Ready to use
-Just npm install, ``import generator from './src/generator;`` and you are ready to go.
+Just ``npm install ts-password-generator``, then 
 
-The ``generator`` function receive following params:
+```
+import { generator } from 'ts-password-generator';
+``` 
+and you are ready to go.
+
+The ``generator`` method receive following params:
 ```
 { 
     charsQty: number, 
@@ -21,4 +26,7 @@ The ``generator`` function receive following params:
 and returns a brand new password string.
 
 ### TODO
-Make this little script an npm package just for fun, and educative purposes.
+* Add maybe more fuctionality.
+
+### DONE
+* Make this little script an npm package just for fun, and educative purposes.
