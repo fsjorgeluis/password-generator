@@ -1,7 +1,7 @@
 {
   "name": "ts-password-generator",
   "version": "1.0.0",
-  "private": true,
+  "private": false,
   "description": "Just a little password generator builded with typescript",
   "main": "src/index.ts",
   "directories": {
