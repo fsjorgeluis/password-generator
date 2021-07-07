@@ -1,0 +1,25 @@
+{
+  "name": "ts-password-generator",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Just a little password generator builded with typescript",
+  "main": "src/generator.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "tsc": "tsc",
+    "build": "tsc src/generator.ts",
+    "start": "node src/generator.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": {
+    "name": "Jorge Fernandez",
+    "email": "fsjorgeluis@gmail.com"
+  },
+  "license": "UNLICENSED",
+  "devDependencies": {
+    "jest": "^27.0.6"
+  }
+}
