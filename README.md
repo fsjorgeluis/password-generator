@@ -12,6 +12,14 @@ Just ``npm install ts-password-generator``, then
 ```
 import { generator } from 'ts-password-generator';
 ``` 
+or
+```
+const tsPasswordGenerator = require("ts-password-generator");
+
+const tsPass = tsPasswordGenerator;
+
+tsPass.generator({});
+```
 and you are ready to go.
 
 The ``generator`` method receive following params:
