@@ -1,6 +1,6 @@
 {
   "name": "ts-password-generator",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "private": false,
   "description": "Just a little password generator builded with typescript",
   "repository": {
@@ -17,12 +17,24 @@
     "start": "node dist/index.js",
     "test": "jest"
   },
-  "keywords": [],
+  "keywords": [
+    "typescript",
+    "tsc",
+    "ASCII",
+    "Unicode"
+  ],
   "author": {
     "name": "Jorge Fernandez",
     "email": "fsjorgeluis@gmail.com",
     "url": "https://fsjorgeluis.github.io/portfolio"
   },
+  "contributors": [
+    {
+      "name": "Javier Mora",
+      "email": "javmora04@gmail.com",
+      "url": "https://j4viermora.github.io/hola/"
+    }
+  ],
   "license": "ISC",
   "devDependencies": {
     "@types/jest": "^26.0.24",
