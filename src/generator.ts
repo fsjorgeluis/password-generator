@@ -48,11 +48,11 @@ const generator = ({
     return password.join('');
 };
 
-const test = generator({
+const generate = generator({
     charsQty: 10,
     isUpperCase: true,
     haveNumbers: true,
     haveSymbols: true
 });
 
-console.log(test);
+console.log(generate);

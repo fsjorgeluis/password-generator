@@ -8,10 +8,9 @@
     "test": "test"
   },
   "scripts": {
-    "tsc": "tsc",
-    "build": "tsc src/generator.ts",
+    "build": "tsc",
     "start": "node src/generator.js",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "jest"
   },
   "keywords": [],
   "author": {
@@ -20,6 +19,7 @@
   },
   "license": "UNLICENSED",
   "devDependencies": {
+    "@types/jest": "^26.0.24",
     "jest": "^27.0.6"
   }
 }
