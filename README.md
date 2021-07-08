@@ -7,8 +7,8 @@
     <img alt="npm bundle size" src="https://img.shields.io/bundlephobia/minzip/ts-password-generator">
     <img src="https://img.shields.io/coveralls/github/badges/shields" alt="coverage">
     <a href="https://twitter.com/intent/follow?screen_name=fsjorgeluis">
-        <img src="https://img.shields.io/twitter/follow/fsjorgeluis?logo=twitter&style=social" alt="follow on Twitter">
-    </a>         
+        <img alt="Twitter Follow" src="https://img.shields.io/twitter/follow/fsjorgeluis?logo=twitter&logoColor=blue&style=social">
+    </a>
 </p>
 
 # Password Generator Module
