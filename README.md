@@ -46,8 +46,21 @@ The ``generator`` method receive following params:
 ```
 and returns a brand new password string.
 
+### Accepted params by generator method
+Any of these can be passed into the options object for each function.
+
+| Name                     | Description                                                                                                    | Default Value |
+|--------------------------|----------------------------------------------------------------------------------------------------------------|---------------|
+| charsQty                 | Integer, optional param, password length.                                                                                      | 10            |
+| isUppercase              | Boolean, optional param, add uppercase chars to the generated password.                                        | false         |
+| haveNumbers              | Boolean, optional param, add numbers to the generated password.                                                | false         |
+| haveSymbols              | Boolean, optional param, add symbols (special characters) to the generated password                            | false         |
+
+*NOTE: by default, if you don't pass any parameter to the ``generator`` method, the generated password will be in lowercase.*
+
 ### TODO
 * Add maybe more fuctionality.
 
 ### DONE
 * Make this little script an npm package just for fun, and educative purposes.
+* Added more documentation.
