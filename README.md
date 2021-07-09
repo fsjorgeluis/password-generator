@@ -6,9 +6,9 @@
     <img alt="Lines of code" src="https://img.shields.io/tokei/lines/github/fsjorgeluis/password-generator">
     <img alt="npm bundle size" src="https://img.shields.io/bundlephobia/minzip/ts-password-generator">
     <img src="https://img.shields.io/coveralls/github/badges/shields" alt="coverage">
-    <a href="https://twitter.com/intent/follow?screen_name=linktodev">
-        <img src="https://img.shields.io/twitter/follow/linktodev?logo=twitter&style=social" alt="follow on Twitter">
-    </a>         
+    <a href="https://twitter.com/intent/follow?screen_name=fsjorgeluis">
+        <img alt="Twitter Follow" src="https://img.shields.io/twitter/follow/fsjorgeluis?logo=twitter&logoColor=blue&style=social">
+    </a>
 </p>
 
 # Password Generator Module
