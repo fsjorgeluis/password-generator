@@ -51,7 +51,7 @@ Any of these can be passed into the options object for each function.
 
 | Name                     | Description                                                                                                    | Default Value |
 |--------------------------|----------------------------------------------------------------------------------------------------------------|---------------|
-| charsQty                 | Integer, optional param, password length.                                                                                      | 10            |
+| charsQty                 | Integer, optional param, password length.                                                                      | 10            |
 | isUppercase              | Boolean, optional param, add uppercase chars to the generated password.                                        | false         |
 | haveNumbers              | Boolean, optional param, add numbers to the generated password.                                                | false         |
 | haveSymbols              | Boolean, optional param, add symbols (special characters) to the generated password                            | false         |
