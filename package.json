@@ -15,8 +15,7 @@
   "scripts": {
     "build": "tsc",
     "start": "node dist/index.js",
-    "test": "jest",
-    "test:coverall": "jest --coverage && cat ./coverage/lcov.info | ./node_modules/coveralls/bin/coveralls.js && rm -rf ./coverage"
+    "test": "jest"
   },
   "keywords": [
     "typescript",
@@ -39,7 +38,6 @@
   "license": "ISC",
   "devDependencies": {
     "@types/jest": "^26.0.24",
-    "coveralls": "^3.1.1",
     "jest": "^27.0.6",
     "ts-jest": "^27.0.3",
     "typescript": "^4.3.5"

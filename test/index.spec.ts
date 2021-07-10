@@ -1,5 +1,4 @@
 import { jest } from "@jest/globals";
-// import { lowToHigh } from '../src/generator';
 import { generator } from '../src/';
 
 beforeEach(() => {
@@ -18,7 +17,3 @@ test("should return a string of xxxxxxxxx", () => {
         haveSymbols: false
     })).toBe("xxxxxxxxxx");
 });
-
-// test("should return a array of numbers", () => {
-//     expect(lowToHigh(1, 5)).toStrictEqual([1, 2, 3, 4, 5]);
-// });

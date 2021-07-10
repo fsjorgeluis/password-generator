@@ -3,10 +3,11 @@
 </p>
 <p align="center">
     <img alt="Travis (.com)" src="https://img.shields.io/travis/com/fsjorgeluis/password-generator">
-    <a href='https://coveralls.io/github/fsjorgeluis/password-generator?branch=main'><img src='https://coveralls.io/repos/github/fsjorgeluis/password-generator/badge.svg?branch=main' alt='Coverage Status' /></a>
-    <img alt="GitHub branch checks state" src="https://img.shields.io/github/checks-status/fsjorgeluis/password-generator/main">
     <img alt="Lines of code" src="https://img.shields.io/tokei/lines/github/fsjorgeluis/password-generator">
     <img alt="npm bundle size" src="https://img.shields.io/bundlephobia/minzip/ts-password-generator">
+    <img alt="GitHub package.json dependency version (dev dep on branch)" src="https://img.shields.io/github/package-json/dependency-version/fsjorgeluis/password-generator/dev/typescript">
+    <img alt="GitHub package.json dependency version (dev dep on branch)" src="https://img.shields.io/github/package-json/dependency-version/fsjorgeluis/password-generator/dev/jest">
+    <img alt="GitHub" src="https://img.shields.io/github/license/fsjorgeluis/password-generator">
     <a href="https://twitter.com/intent/follow?screen_name=fsjorgeluis">
         <img alt="Twitter Follow" src="https://img.shields.io/twitter/follow/fsjorgeluis?logo=twitter&logoColor=blue&style=social">
     </a>
