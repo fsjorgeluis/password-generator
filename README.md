@@ -2,10 +2,11 @@
     <img src="https://user-images.githubusercontent.com/20530235/124830986-a5f70200-df48-11eb-8800-22eaed9b21ba.png?sanitize=true">
 </p>
 <p align="center">
+    <img alt="Travis (.com)" src="https://img.shields.io/travis/com/fsjorgeluis/password-generator">
+    <a href='https://coveralls.io/github/fsjorgeluis/password-generator?branch=main'><img src='https://coveralls.io/repos/github/fsjorgeluis/password-generator/badge.svg?branch=main' alt='Coverage Status' /></a>
     <img alt="GitHub branch checks state" src="https://img.shields.io/github/checks-status/fsjorgeluis/password-generator/main">
     <img alt="Lines of code" src="https://img.shields.io/tokei/lines/github/fsjorgeluis/password-generator">
     <img alt="npm bundle size" src="https://img.shields.io/bundlephobia/minzip/ts-password-generator">
-    <img src="https://img.shields.io/coveralls/github/badges/shields" alt="coverage">
     <a href="https://twitter.com/intent/follow?screen_name=fsjorgeluis">
         <img alt="Twitter Follow" src="https://img.shields.io/twitter/follow/fsjorgeluis?logo=twitter&logoColor=blue&style=social">
     </a>
