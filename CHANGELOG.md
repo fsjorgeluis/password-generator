@@ -13,9 +13,9 @@ _2021-07-07_
 ## v1.0.1
 _2021-07-07_
 
- * Added info and badges to readme
+ * Added info, logo and badges to readme
 
 ## v1.0.0
 _2021-07-07_
 
- * Initial stable release and npmjs upload testing
+ * Initial stable release and upload to npmjs as testing
