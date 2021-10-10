@@ -1,9 +1,10 @@
 // Type definition
-type GeneratorOptios = {
-    charsQty: number,
-    isUppercase: boolean,
-    haveNumbers: boolean,
-    haveSymbols: boolean
+type GeneratorOptions = {
+    charsQty?: number,
+    isUppercase?: boolean,
+    haveString?: boolean,
+    haveNumbers?: boolean,
+    haveSymbols?: boolean,
 };
 
 /**
@@ -17,6 +18,7 @@ const lowToHigh = (low: number, high: number): number[] => {
     for (let i = low; i <= high; i++) {
         array.push(i);
     }
+
     return array;
 };
 
@@ -39,16 +41,27 @@ const symbolsCharactersCode = lowToHigh(33, 47)
 export const generator = ({
     charsQty = 10,
     isUppercase = false,
+    haveString  = true,
     haveNumbers = false,
-    haveSymbols = false
-}: GeneratorOptios): string => {
-    let charactersCode: number[] = lowercaseCharactersCode;
+    haveSymbols = false,
+}: GeneratorOptions = {
+    charsQty: 10,
+    isUppercase: false,
+    haveString: true,
+    haveNumbers: false,
+    haveSymbols: false
+}): string => {
+    let charactersCode: number[] = [];
 
+    if (haveString) charactersCode = charactersCode.concat(lowercaseCharactersCode);
     if (isUppercase) charactersCode = charactersCode.concat(uppercaseCharactersCode);
     if (haveNumbers) charactersCode = charactersCode.concat(numberCharactersCode);
     if (haveSymbols) charactersCode = charactersCode.concat(symbolsCharactersCode);
 
     const password: string[] = [];
+    if (charactersCode.length === 0) {
+        return ''
+    }
     for (let i = 0; i < charsQty; i++) {
         const char = Math.floor(Math.random() * charactersCode.length);
         password.push(String.fromCharCode(charactersCode[char]));
