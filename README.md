@@ -15,19 +15,26 @@
 
 # Password Generator Module
 
-A little module to generate password, use ``fromCharCode()`` static method to convert a random "ASCII - Unicode" code to a readable character.  
+A little module to generate password, use `fromCharCode()` static method to convert a random "ASCII - Unicode" code to a readable character.
+
 ```
 String.fromCharCode()
 ```
+
 Feel free to use it, if you like it! :D
 
 ## Ready to use
-Just ``npm install ts-password-generator``, then 
+
+Just `npm install ts-password-generator`, then
 
 ```
 import { generator } from 'ts-password-generator';
-``` 
+
+const password: string = generator({ haveNumbers: true })
+```
+
 or
+
 ```
 const tsPasswordGenerator = require("ts-password-generator");
 
@@ -35,34 +42,41 @@ const tsPass = tsPasswordGenerator;
 
 tsPass.generator({});
 ```
+
 and you are ready to go.
 
-The ``generator`` method receive following params:
+The `generator` method receive following optional params:
+
 ```
-{ 
-    charsQty: number, 
-    isUppercase: boolean, 
-    haveNumbers: boolean, 
-    haveSymbols: boolean 
+{
+    charsQty: number,
+    isUppercase: boolean,
+    haveNumbers: boolean,
+    haveStrings: boolean,
+    haveSymbols: boolean
 }
 ```
+
 and returns a brand new password string.
 
 ### Accepted params by generator method
-Any of these can be passed into the options object for ``generator`` method.
 
-| Name                     | Description                                                                                                    | Default Value |
-|--------------------------|----------------------------------------------------------------------------------------------------------------|---------------|
-| charsQty                 | Integer, optional param, password length (chars quantity).                                                                      | 10            |
-| isUppercase              | Boolean, optional param, add uppercase chars to the generated password.                                        | false         |
-| haveNumbers              | Boolean, optional param, add numbers to the generated password.                                                | false         |
-| haveSymbols              | Boolean, optional param, add symbols (special characters) to the generated password                            | false         |
+Any of these can be passed into the options object for `generator` method.
 
-*NOTE: by default, if you don't pass any parameter to the ``generator`` method, the generated password will be in lowercase.*
+| Name        | Description                                                                         | Default Value |
+| ----------- | ----------------------------------------------------------------------------------- | ------------- |
+| charsQty    | Integer, optional param, password length (chars quantity).                          | 10            |
+| isUppercase | Boolean, optional param, add uppercase chars to the generated password.             | false         |
+| haveNumbers | Boolean, optional param, add numbers to the generated password.                     | false         |
+| haveSymbols | Boolean, optional param, add symbols (special characters) to the generated password | false         |
+
+_NOTE: by default, if you don't pass any parameter to the `generator` method, the generated password will be in lowercase._
 
 ### TODO
-* Add maybe more fuctionality.
+
+- Add maybe more fuctionality.
 
 ### DONE
-* Make this little script an npm package just for fun, and educative purposes.
-* Added more documentation.
+
+- Make this little script an npm package just for fun, and educative purposes.
+- Added more documentation.
