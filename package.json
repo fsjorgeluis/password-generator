@@ -1,57 +1,57 @@
 {
-  "name": "ts-password-generator",
-  "version": "1.0.3",
-  "private": false,
-  "description": "Just a little password generator builded with typescript",
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/fsjorgeluis/password-generator"
-  },
-  "main": "dist/index.js",
-  "types": "dist/index.d.ts",
-  "directories": {
-    "test": "test"
-  },
-  "scripts": {
-    "build": "tsc",
-    "start": "node dist/index.js",
-    "test": "jest"
-  },
-  "keywords": [
-    "typescript",
-    "tsc",
-    "ASCII",
-    "Unicode"
-  ],
-  "author": {
-    "name": "Jorge Fernandez",
-    "email": "fsjorgeluis@gmail.com",
-    "url": "https://fsjorgeluis.github.io/portfolio"
-  },
-  "contributors": [
-    {
-      "name": "Javier Mora",
-      "email": "javmora04@gmail.com",
-      "url": "https://j4viermora.github.io/hola/"
-    }
-  ],
-  "license": "ISC",
-  "devDependencies": {
-    "@types/jest": "^26.0.24",
-    "jest": "^27.0.6",
-    "ts-jest": "^27.0.3",
-    "typescript": "^4.3.5"
-  },
-  "jest": {
-    "moduleFileExtensions": [
-      "js",
-      "json",
-      "ts"
-    ],
-    "rootDir": "./test",
-    "testRegex": ".*\\.spec\\.ts$",
-    "transform": {
-      "^.+\\.(t|j)s$": "ts-jest"
-    }
-  }
+	"name": "ts-password-generator",
+	"version": "1.0.4",
+	"private": false,
+	"description": "Just a little password generator builded with typescript",
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/fsjorgeluis/password-generator"
+	},
+	"main": "dist/index.js",
+	"types": "dist/index.d.ts",
+	"directories": {
+		"test": "test"
+	},
+	"scripts": {
+		"build": "tsc",
+		"start": "node dist/index.js",
+		"test": "jest"
+	},
+	"keywords": [
+		"typescript",
+		"tsc",
+		"ASCII",
+		"Unicode"
+	],
+	"author": {
+		"name": "Jorge Fernandez",
+		"email": "fsjorgeluis@gmail.com",
+		"url": "https://fsjorgeluis.github.io/portfolio"
+	},
+	"contributors": [
+		{
+			"name": "Javier Mora",
+			"email": "javmora04@gmail.com",
+			"url": "https://j4viermora.github.io/hola/"
+		}
+	],
+	"license": "ISC",
+	"devDependencies": {
+		"@types/jest": "^26.0.24",
+		"jest": "^27.0.6",
+		"ts-jest": "^27.0.3",
+		"typescript": "^4.3.5"
+	},
+	"jest": {
+		"moduleFileExtensions": [
+			"js",
+			"json",
+			"ts"
+		],
+		"rootDir": "./test",
+		"testRegex": ".*\\.spec\\.ts$",
+		"transform": {
+			"^.+\\.(t|j)s$": "ts-jest"
+		}
+	}
 }
