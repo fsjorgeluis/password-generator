@@ -68,6 +68,7 @@ Any of these can be passed into the options object for `generator` method.
 | charsQty    | Integer, optional param, password length (chars quantity).                          | 10            |
 | isUppercase | Boolean, optional param, add uppercase chars to the generated password.             | false         |
 | haveNumbers | Boolean, optional param, add numbers to the generated password.                     | false         |
+| haveStrings | Boolean, optional param, add char to the generated password.                        | true          |
 | haveSymbols | Boolean, optional param, add symbols (special characters) to the generated password | false         |
 
 _NOTE: by default, if you don't pass any parameter to the `generator` method, the generated password will be in lowercase._
